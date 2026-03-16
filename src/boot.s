@@ -24,7 +24,7 @@ _start:
 hang:
     hlt
     jmp hang
-
+.section .note.GNU-stack,"",@progbits
 .section .build_note, "a", @note
 .align 4
 .long 8
