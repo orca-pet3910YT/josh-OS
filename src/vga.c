@@ -4,6 +4,7 @@
 
 #include <vga.h>
 #include <stdint.h>
+#include <port.h>
 
 static uint16_t *vga_buffer = (uint16_t*)0xB8000;
 int col = 0;
