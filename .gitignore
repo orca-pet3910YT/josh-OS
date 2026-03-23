@@ -1,2 +1,6 @@
+# build objects
 build/
+# github workflows and templates
 .github/
+# the kernel
+iso/kernel.elf
